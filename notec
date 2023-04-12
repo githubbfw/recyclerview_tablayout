@@ -1,0 +1,16 @@
+ 好用插件
+ 1、Translation 翻译插件
+ 2.TabNine 是一个自动补全的编码插件
+ 3.GsonFormatPlus 这是一个根据JSONObject格式的字符串
+ 4.OK, Gradle!  一款可以在android studio中搜索第三方库的compile插件
+ 5.Rainbow Brackets  (彩虹括号) 可以将 (圆括号) [方括号] {花括号} <尖括号> 用不同颜色标记出来, 方便使用者快速识别代码层次, 提高开发效率!
+ 5.Key Promoter X 是一个提示插件
+ 6.Json Helper 当日志打印的 Json 没有经过格式化的时候
+ 7.CodeGlance
+与Sublime或Xcode相似，此插件在你的编辑器中嵌入了代码的缩略图。如下图所示，右边是代码的缩略小图，滚动条也变大了。 使用Codeglance预览代码模式，让你 快速导航至所需部分
+
+
+
+   1. textview  默认不能点击，满足条件下是可以点击的--   要设置setClickable没有作用
+      setOnClickListener事件之后，再进行setClickable的设置
+      因为setOnClickListener的时候会去重写View，因为默认的setClickable为true
